@@ -21,7 +21,8 @@ is done in a simple markdown file.
 ```md
 - [x] data_a/
 - [ ] data_b/
-- [x] img_0.jpg ...
+<!-- - [ ] untracked.png -->
+- [x] img_0.jpg
 ```
 
 The nice thing is that in an editor able to render markdown files, it renders
@@ -29,4 +30,5 @@ like this directly.
 
 - [x] data_a/
 - [ ] data_b/
+<!-- - [ ] untracked.png -->
 - [x] img_0.jpg
